@@ -1,0 +1,167 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>BlossomFlowersweb</title>
+    <meta charset="UTF-8">
+    <meta name="veiwport" content="width=device-width,initial-scale=0.1">
+    <style>
+        
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            background-color: darkblue;
+            display: flex;
+            height: 20px;
+            padding: 10px 10px;
+            align-items: center;
+            margin: 5px;
+            width: 100%;
+            border-radius: 9px;
+            justify-content: flex-start;
+            color: white;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        a {
+            text-decoration: none;
+            height: 20px;
+            margin: 3px;
+            color: white;
+            font-weight: bold;
+        }
+
+        a:hover {
+            background-color: white;
+            color: black;
+            cursor: pointer;
+        }
+
+        a.active {
+            background-color: red;
+            color: white;
+        }
+
+        section {
+            display: flex;
+            align-items: center;
+        }
+
+        .container1 {
+            width:50%;
+            margin:auto;
+        }
+
+        .img {
+            border: 2px solid grey;
+            border-radius: 4px;
+            width: 200px;
+            align-content: center;
+            height: 100px;
+            margin-left: 30px;
+            margin-top: 9px;
+        }
+
+        video {
+            display: flex;
+            margin-left: 400px;
+            margin-bottom: 20px;
+        }
+
+        .box {
+            display: flex;
+
+        }
+
+        .box1 {
+            display: flex;
+            margin-left: 70px;
+
+        }
+
+        .box2 {
+            display: flex;
+            justify-content: flex-end;
+            margin-left: 800px;
+        }
+
+        .box3 {
+            display: flex;
+            width: 17%;
+            margin:0px 20px;
+            border:2px solid grey;
+        }
+
+        .icon {
+            height: 45px;
+            margin: 5px;
+            display: flex;
+        }
+
+        footer {
+            background-color: darkblue;
+            display: flex;
+            width: 100%;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            justify-content: space-between;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div>
+            <img src="../Blossom_flower_shop_assignment/images/logo.png">
+        </div>
+        <nav>
+            <div>
+                <a href="home.html">Home</a>
+                <a href="product.html">Products</a>
+                <a href="video.html"class="active">Video</a>
+                <a href="contactus.html">Contact us</a>
+            </div>
+            <div class="box2">
+                <a href="logout.html">Logout</a>
+            </div>
+        </nav>
+        </header>
+    </section>
+    <div class="container1">
+        <marquee>
+            <h1>Let us arrange a smile for you!</h1>
+        </marquee>
+    </div>
+    <div class="box">
+        <video width="500" controls>
+            <source src="../Blossom_flower_shop_assignment/video/v1.mp4" type="video/mp4">
+            <source src="Blossom_flowr_shop" type="video/ogg">
+        </video>
+        <div class="box3">
+            <div>
+                <img src="../Blossom_flower_shop_assignment/images/pv1.JPG" class="img">
+                <img src="../Blossom_flower_shop_assignment/images/pv2.JPG" class="img">
+                <div>
+                    <img src="../Blossom_flower_shop_assignment/images/pv3.JPG" class="img">
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div>
+            <h3>&copy;Blossom Flowers</h3>
+        </div>
+        <div class="box1">
+            <img src="../Blossom_flower_shop_assignment/icon/fb.png" class="icon">
+            <img src="../Blossom_flower_shop_assignment/icon/twitter.png" class="icon">
+            <img src="../Blossom_flower_shop_assignment/icon/ig.png" class="icon">
+        </div>
+    </footer>
+</body>
+
+</html>

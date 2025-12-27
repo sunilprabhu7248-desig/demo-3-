@@ -1,0 +1,167 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>BlossomFlowers</title>
+    <meta charset="UTF-8">
+    <meta name="veiwport" content="width=device-width,initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            background-color: darkblue;
+            display: flex;
+            height: 20px;
+            padding: 10px 10px;
+            align-items: center;
+            margin: 5px;
+            width: 100%;
+            border-radius: 9px;
+            justify-content: flex-start;
+            color: white;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        a {
+            text-decoration: none;
+            height: 20px;
+            margin: 3px;
+            color: white;
+            font-weight: bold;
+        }
+
+        a:hover {
+            background-color: white;
+            color: black;
+            cursor: pointer;
+        }
+
+        a.active {
+            background-color: red;
+            color: white;
+        }
+
+        section {
+            display: flex;
+            align-items: center;
+        }
+
+        .icon {
+            height: 45px;
+            margin: 5px;
+            display: flex;
+        }
+
+        .box1 {
+            display: flex;
+            margin-left: 70px;
+
+        }
+        .box2 {
+            display: flex;
+            justify-content: flex-end;
+            gap: 30px;
+            margin-left:800px;
+        }
+
+        .container {
+            display: flex;
+            width: 50%;
+            margin:auto;
+        }
+
+        .sec2 {
+            width: 70%;
+            margin: auto;
+            margin-bottom:70px;
+            padding: 20px;
+            border: 1px solid black;
+            border-radius: 10px;
+            background-color: rgb(212, 210, 210);
+        }
+        h2{
+            text-align:center;
+            font-family:"Monotype Corsiva", serif;
+            font-size:30px;
+        }
+
+        input {
+            width: 100%;
+           height:30px;
+        }
+
+        input[type="submit"] {
+            width: 20%;
+            position: relative;
+            margin-left:430px;
+            margin-top:20px;
+        }
+
+        textarea{
+            width:100%;
+            height:100px;
+        }
+        select {
+            width: 100%;
+        }
+
+        footer {
+            background-color: darkblue;
+            display: flex;
+            width:100%;
+            position: fixed;
+            left:0;
+            bottom:0;
+            justify-content: space-between;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div>
+            <img src="../Blossom_flower_shop_assignment/images/logo.png">
+        </div>
+        <nav>
+            <div>
+                <a href="home.html">Home</a>
+                <a href="product.html">Products</a>
+                <a href="video.html">Video</a>
+                <a href="contactus.html">Contact us</a>
+            </div>
+            <div class="box2">
+                <a href="logout.html"class="active">Logout</a>
+            </div>
+        </nav>
+        </header>
+    </section>
+    <h2>Log in details</h2>
+    <section class="container">
+        <form>
+            <div class="sec2">
+                <label for="name">Full Name:*</lable>
+                    <input type="text" id="name" for="name" placeholder="Your name">
+                    <label for="LN">Last Name:*</label>
+                    <input type="text" id="LN" name="lastname" placeholder="Your last name">
+                    <label for="mail">Email:*</label>
+                    <input type="email" id="mail" name="email" placeholder="Your Email">
+                    <label for="pwd">Password:*</label>
+                    <input type="password" id="pwd" name="password" placeholder="Your password">
+                    <input type="submit">
+            </div>
+        </form>
+    </section>
+        <footer>
+            <div>
+                <h3>&copy;Blossom Flowers</h3>
+            </div>
+            <div class="box1">
+                <img src="../Blossom_flower_shop_assignment/icon/fb.png" class="icon">
+                <img src="../Blossom_flower_shop_assignment/icon/twitter.png" class="icon">
+                <img src="../Blossom_flower_shop_assignment/icon/ig.png" class="icon">
+            </div>
+        </footer>

@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+    <head>
+        <title>BlossomFlowersweb</title>
+        <meta charset="UTF-8">
+        <meta name="veiwport"content="width=device-width,initial-scale=0.1">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            text-align: center;
+            font-family: "Monotype Corsiva", serif;
+        }
+
+        nav {
+            background-color: darkblue;
+            display: flex;
+            height: 20px;
+            padding: 10px 10px;
+            align-items: center;
+            margin: 5px;
+            width: 100%;
+            border-radius:9px;
+            justify-content: flex-start;
+            color: white;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+         a {
+            text-decoration: none;
+            height: 20px;
+            margin: 3px;
+            color: white;
+            font-weight: bold;
+        }
+
+        a:hover{
+            background-color:white;
+            color:black;
+            cursor: pointer;
+        }
+        a.active{
+            background-color:red;
+            color:white;
+        }
+        section {
+            display: flex;
+            gap: 10px;
+            width: 100%;
+            align-items: center;
+        }
+        .img {
+            border:2px solid grey;
+            border-radius:4px;
+            width:300px;
+            align-content:center;
+            height:300px;
+            margin-left:30px;
+            margin-top:9px;
+        }
+        .box1{
+                display:flex;
+                margin-left:70px;
+            }   
+        .box2 {
+            display: flex;
+            justify-content: flex-end;
+            gap: 30px;
+            margin-left:800px;
+        }
+        .icon{
+                height:45px;
+                margin:5px;
+                display:flex;
+                justify-content:center; 
+        }
+         footer{
+                background-color:darkblue;
+                display:flex;
+                width:100%;
+                position:fixed;
+                left:0;
+                bottom:0;
+                justify-content:space-between;
+                color:white;
+            }   
+    </style>
+    </head>
+        <body>
+            <section>
+        <div>
+            <img src="../Blossom_flower_shop_assignment/images/logo.png">
+        </div>
+        <nav>
+            <div>
+                <a href="home.html">Home</a>
+                <a href="product.html">Products</a>
+                <a href="video.html"class="active">Video</a>
+                <a href="contactus.html">Contact us</a>
+            </div>
+            <div class="box2">
+                <a href="logout.html">Logout</a>
+            </div>
+        </nav>
+        </header>
+    </section>
+        <a href="video1.html"><img src="../Blossom_flower_shop_assignment/images/pv1.JPG"class="img">
+             <footer>
+                <div>
+                <h3>&copy;Blossom Flowers</h3>
+                </div>
+                <div class="box1">
+                    <img src="../Blossom_flower_shop_assignment/icon/fb.png"class="icon">
+                    <img src="../Blossom_flower_shop_assignment/icon/twitter.png"class="icon">
+                    <img src="../Blossom_flower_shop_assignment/icon/ig.png"class="icon">
+                </div>
+            </footer>
+        </body>
+</html>
